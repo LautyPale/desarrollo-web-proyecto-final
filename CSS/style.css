@@ -159,9 +159,6 @@ h3{
     background-color: #8f8f8f;
     border-color: #8f8f8f;
 }
-.filterInvert{
-    filter: invert(1);
-}
 
 /*
     .container {  display: grid;
