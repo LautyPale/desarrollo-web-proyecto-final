@@ -98,7 +98,11 @@ a{
     font-family: 'Public Sans', sans-serif;
     font-weight: bold;
 }
-
+.whiteFont{
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+}
 .imgFooter{
     width: 60px;
     filter: invert(1);
@@ -145,6 +149,18 @@ h3{
 }
 .backgroundGray{
     background-color: rgb(25, 25, 25);
+}
+.colorGray{
+    background-color: #FFE20D;
+    border-color: #FFE20D;
+    color: black;
+}
+.colorGray:hover{
+    background-color: #8f8f8f;
+    border-color: #8f8f8f;
+}
+.filterInvert{
+    filter: invert(1);
 }
 
 /*
