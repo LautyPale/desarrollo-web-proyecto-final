@@ -16,7 +16,7 @@
               <a class="navbar-brand" href="#">
                   <img class="navLogo" src="../images/logo.png" alt="logo">
               </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,16 +45,38 @@
         </nav>
   </header>
 
-  <main class="main">
-
+  <main class="main backgroundGray yellowFont p-3 rounded-4">
+    <div>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text whiteFont">Nunca compartiremos tu email con nadie.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary colorGray">Enviar</button>
+      </form>
+    </div>
   </main>
 
   <aside class="aside">
-      
+
+    <div>
+      <a href="https://www.twentyonepilotstourdates.com/" target="_blank">
+        <img class="rounded-4" src="../images/img-index-side.jpg" alt="foto-index-aside">
+      </a>
+    </div>
+
+    <div class="text-center">
+      <p><h2 class="rounded-4">Ultimos tweets</h2></p>
+    </div>
   </aside>
 
   <footer class="footer">
-    <div>
+    <div class="d-flex justify-content-between">
       <a href="#top">
         <img class="imgFooter" src="../images/img-footer.png" alt="flecha-footer">
       </a>
