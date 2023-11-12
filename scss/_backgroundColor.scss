@@ -1,0 +1,27 @@
+.backgroundGray{
+    background-color: rgb(25, 25, 25);
+    .redes{
+        width: 100px;
+    }
+    .yellowFont{
+        color: $yellow-color;
+        font-family: 'Public Sans', sans-serif;
+        font-weight: bold;
+
+        .whiteFont{
+            color: $white-color;
+            font-weight: bold;
+        }
+        button{
+
+            background-color: $yellow-color;
+            border-color: $yellow-color;
+            color: black;
+
+            &:hover{
+                background-color: $gray-color;
+                border-color: $gray-color;
+            }
+        }
+    }
+}

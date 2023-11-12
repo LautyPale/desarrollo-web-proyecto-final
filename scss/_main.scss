@@ -1,0 +1,31 @@
+.main { 
+    grid-area: main; 
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    div{
+        
+        h2{
+            color: $white-color;
+            margin-bottom: 2rem;
+            font-family: 'Public Sans', sans-serif;
+            background-color: $background-color;
+            font-size: 2rem;
+            .yellowFont{
+                color: 	$gray-color;
+                text-decoration: none;
+                color: $yellow-color;
+                font-family: 'Public Sans', sans-serif;
+                font-weight: bold;
+            }
+        }
+        
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            filter: brightness(0.90);
+        }
+    }
+
+}

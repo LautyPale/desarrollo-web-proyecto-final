@@ -1,0 +1,18 @@
+.aside{
+    grid-area: aside;
+    margin-right: 1rem;
+    div{
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        h2{
+            color: $white-color;
+            margin-bottom: 2rem;
+            font-family: 'Public Sans', sans-serif;
+            background-color: $background-color;
+            font-size: 2rem;
+        }
+    }
+}
