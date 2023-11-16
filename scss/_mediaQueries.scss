@@ -1,4 +1,4 @@
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991px) and (min-width: 769px){
     .container {  display: grid;
         grid-template-columns: 1.5fr 1fr;
         grid-template-rows: auto 1fr auto;
@@ -47,7 +47,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 420px){
     .container {  display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto 1fr auto auto;
