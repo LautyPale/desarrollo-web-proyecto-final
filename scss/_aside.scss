@@ -8,11 +8,11 @@
         }
 
         h2{
-            color: $white-color;
+            @include color ($white-color);
             margin-bottom: 2rem;
             font-family: 'Public Sans', sans-serif;
             background-color: $background-color;
-            font-size: 2rem;
+            @include fontsize(2rem);
         }
     }
 }

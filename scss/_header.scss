@@ -18,14 +18,14 @@ header {
                 .navbar-nav{
                     .nav-item{
                         .nav-link{
-                            color: $yellow-color;
-                            font-size: 1.75rem;
+                            @include color($yellow-color);
+                            @include fontsize(1.75rem);
                             margin-left: 0.5rem;
                             margin-right: 0.5rem;
                             font-family: 'Public Sans', sans-serif;
                         }
                         &:hover{
-                            color: $white-color;
+                            @include color($white-color);
                             background-color: $gray-color;
                             border-radius: 25px;
                         }

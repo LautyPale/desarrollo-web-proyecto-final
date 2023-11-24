@@ -7,15 +7,15 @@
     div{
         
         h2{
-            color: $white-color;
+            @include color ($white-color);
             margin-bottom: 2rem;
             font-family: 'Public Sans', sans-serif;
             background-color: $background-color;
-            font-size: 2rem;
+            @include fontsize(2rem);
             .yellowFont{
-                color: 	$gray-color;
                 text-decoration: none;
-                color: $yellow-color;
+                @include color($yellow-color);
+                //color: $yellow-color;//
                 font-family: 'Public Sans', sans-serif;
                 font-weight: bold;
             }
